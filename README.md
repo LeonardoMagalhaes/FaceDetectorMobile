@@ -124,16 +124,16 @@ Note: in order to test, you'll need a real phone to use the camera.
   ```
 3. Install the following libraries at your project:
   ```js
-    npx expo install expo-camera
-    npx expo install expo-face-detector
-    npx expo install react-native-reanimated
+  npx expo install expo-camera
+  npx expo install expo-face-detector
+  npx expo install react-native-reanimated
   ```
 4. Add the line above on the `babel.config.js` file
   ```js
-    plugins: ['react-native-reanimated/plugin']
+  plugins: ['react-native-reanimated/plugin']
   ```
 
-Documentation: [Documentation](https://https://docs.expo.dev/versions/latest/sdk/facedetector/)
+[Documentation](https://https://docs.expo.dev/versions/latest/sdk/facedetector/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
