@@ -38,15 +38,15 @@
 
   <p align="center">
     This is a POC from a RocketSeat class using FaceDetector in react native.
-    
-    <br />
-    <a href="https://github.com/LeonardoMagalhaes/FaceDetectorMobile"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/LeonardoMagalhaes/FaceDetectorMobile/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/LeonardoMagalhaes/FaceDetectorMobile/issues">Request Feature</a>
   </p>
+    
+  <br />
+  <a href="https://github.com/LeonardoMagalhaes/FaceDetectorMobile"><strong>Explore the docs »</strong></a>
+  <br />
+  <br />
+  <a href="https://github.com/LeonardoMagalhaes/FaceDetectorMobile/issues">Report Bug</a>
+  ·
+  <a href="https://github.com/LeonardoMagalhaes/FaceDetectorMobile/issues">Request Feature</a>
 </div>
 
 
@@ -115,13 +115,13 @@ Note: in order to test, you'll need a real phone to use the camera.
 ### Installation
 
 1. Clone the repo
-   ```sh
-    git clone https://github.com/LeonardoMagalhaes/FaceDetectorMobile.git
-   ```
+  ```sh
+  git clone https://github.com/LeonardoMagalhaes/FaceDetectorMobile.git
+  ```
 2. Install NPM packages
-   ```sh
-    npm install
-   ```
+  ```sh
+  npm install
+  ```
 3. Install the following libraries at your project:
   ```js
     npx expo install expo-camera
