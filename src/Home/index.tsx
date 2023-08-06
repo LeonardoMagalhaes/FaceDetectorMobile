@@ -40,7 +40,7 @@ export function Home() {
       if (face.smilingProbability > 0.5) {
         setEmoji(smilingImg);
       }
-      else if(face.rightEyeOpenProbability > 0.5 && face.leftEyeOpenProbability < 0.5) {
+      else if(face.leftEyeOpenProbability > 0.5 && face.rightEyeOpenProbability < 0.5) {
         setEmoji(winkingImg);
       }
       else {
@@ -60,7 +60,9 @@ export function Home() {
     transform: [
       { translateX: faceValues.value.x },
       { translateY: faceValues.value.y },
-    ]
+    ],
+    borderColor: 'blue',
+    borderWidth: 2
   }));
 
   useEffect(() => {
